@@ -10,8 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'] ?? '';
 
     if ($username === $correct_username && $password === $correct_password) {
-        $_SESSION['customer_logged_in'] = true;  
-        header("Location: customer_manager.php"); 
+        $_SESSION['customer_manager_logged_in'] = true;  
+        header("Location: add_customer.php"); 
         exit();
     } else {
         $error = "Invalid username or password.";

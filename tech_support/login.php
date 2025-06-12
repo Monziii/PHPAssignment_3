@@ -38,7 +38,7 @@
         <div class="login-links">
             <a href="admin/login.php">Administrator Login</a>
             <a href="technician/login.php">Technician Login</a>
-            <a href="customer/login.php">Customer Login</a>
+            <a href="customer_manager/login.php">Customer Login</a>
         </div>
     </div>
 </body>
